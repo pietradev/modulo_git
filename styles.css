@@ -1,0 +1,87 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+
+body > header {
+    background-color:#292828;
+    padding: 16px 0;
+    color: white;
+}
+
+header li{
+    display: inline;
+    text-decoration: none;
+    padding: auto 10px;
+   
+}
+header li a {
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: auto 10px;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+ .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+     margin-top: 8px;
+     margin-bottom: 9px;
+}
+
+.articles article a {
+    background-color: rgb(20, 27, 30);
+    color: white;
+    padding: 8px;
+    display: inline-block; /*Propriedade do a - inline, estamos mudando a propriedade para inline-block*/
+}
+
+
+#economy {
+    background-color: green;
+}
+
+#economy article{
+    color: white;
+}
+
+#economy h2 {
+    color: white;
+}
+
+#entertainment {
+    background-color: blueviolet;
+    color: white;
+}
